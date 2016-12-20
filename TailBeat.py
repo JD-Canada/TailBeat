@@ -6,9 +6,9 @@ video='fftTest.avi'
 
 camera = cv2.VideoCapture(video)
 totalnbrframes=camera.get(7)
-print totalnbrframes
+#print totalnbrframes
 success, firstFrame = camera.read() #reads the first image of the video for calibration function
-print success
+#print success
 count = 0
 xdist=[]
 ydist=[]
